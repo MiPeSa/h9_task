@@ -31,9 +31,6 @@
 
 - Taulukon luominen onnistui eli SQL-komennot toimii.
 
-- Komennolla ``\d books;`` näkee taulukon rakenteen, tässä näkyy esimerkiksi luomani ``PRIMARY KEY id``, sekä ``name`` sarake sekä niiden tyypit ``integer``/numero, ``character varying(200)``/max 200 merkkinen merkkijono, sekä esim id:n määritelmät/ehdot. ``not null``= ei voi olla null arvo ja Defaultissa määritellään, että tietokanta luo automaattisesti uuden id:n esimerkiksi, kun luodaan taulukkoon uusi kirja. ``Indexes`` kertoo talukon ``PRIMARY KEY``:n, joka on ``id``
-
-![Add file: rakenne](books-rakenne.png)
 
 ## b)
 
@@ -47,6 +44,10 @@
 - Katsoin luomani taulukon komennolla``\d``, taulukon luominen onnistui.
 
 ![Add file: Create Table](create-table.png)
+
+- Komennolla ``\d books;`` näkee taulukon rakenteen, tässä näkyy esimerkiksi luomani ``PRIMARY KEY id``, sekä ``name`` sarake sekä niiden tyypit ``integer``/numero, ``character varying(200)``/max 200 merkkinen merkkijono, sekä esim id:n määritelmät/ehdot. ``not null``= ei voi olla null arvo ja Defaultissa määritellään, että tietokanta luo automaattisesti uuden id:n esimerkiksi, kun luodaan taulukkoon uusi kirja. ``Indexes`` kertoo talukon ``PRIMARY KEY``:n, joka on ``id``
+
+![Add file: rakenne](books-rakenne.png)
 
 - Seuraavaksi syötin hieman tietoja juuri luomaani "books" taulukkoon. 
 - Syötän taulukkoon muutaman päästä keksimäni nimen komennolla ``INSERT INTO books(name) VALUES('nimi')``;
