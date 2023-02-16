@@ -59,7 +59,7 @@
 
 - Kyllä vain, nimien lisääminen onnistui.
 
-- SELECT lausekkeisiin voi sisällyttää ehtoja, jotka helpottavat merkittävästi isoista tietokannoista haluttujen asioiden hakemista. Tässä massiivisessa tietokannassa hain kirjojen nimistä "tie" sanaan loppuvaa kirjan nimeä komennolla ``SELECT * FROM books WHERE name LIKE '%tie'``. Lausekkeessa ``%`` ennen "tie" sanaa määrittelee, että "tie" sanaa ennen voi olla mitä vain merkkejä.
+- SELECT lausekkeisiin voi sisällyttää ehtoja, jotka helpottavat merkittävästi isoista tietokannoista haluttujen asioiden hakemista. Tästä tietokannasta hain kirjojen nimistä "tie" sanaan loppuvaa kirjan nimeä komennolla ``SELECT * FROM books WHERE name LIKE '%tie'``. Lausekkeessa ``%`` ennen "tie" sanaa määrittelee, että "tie" sanaa ennen voi olla mitä vain merkkejä.
 
 #### Tulos:
 
