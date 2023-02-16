@@ -1,6 +1,6 @@
 # h9 Sequel
 
-Kone
+## Kone
 
 - MacBook Air(2015) 
 - Intel i5 1,6 GHz Dual-Core prossu
