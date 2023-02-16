@@ -10,7 +10,7 @@
 
 ## x) Esimerkki palvelusta.
 
-- Mieleeni tuli esimerkiksi kuvitteellinen palvelu, joka vuokraa autoja. Yrityksellä, joka vuokraa autoja on luultavasti todella paljon tarjolla erilaisia autoja asiakkaille. Tietokannan avulla autojen yksityiskohtaiset tiedot sekä varusteet yms on helppo tallettaa tietokantaa sekä hakea ne tietokannasta koodin avulla. Tietokantaan on helppo päivittää autojen tietoja sekä varusteita esimerkiksi kovakoodaamisen sijaan. Tietokantaan pystyy myös helposti tallettamaan kaikki tarpeelliset tiedot esimerkiksi vuokrauksista/vuokrasopimuksista sekä vuokraavien asiakkaiden yhteystiedoista. 
+- Mieleeni tuli esimerkiksi kuvitteellinen palvelu, joka vuokraa autoja. Yrityksellä, joka vuokraa autoja on luultavasti todella paljon tarjolla erilaisia autoja asiakkaille. Tietokannan avulla autojen yksityiskohtaiset tiedot sekä varusteet yms on helppo tallettaa tietokantaan sekä hakea ne tietokannasta koodin avulla. Tietokantaan on helppo päivittää autojen tietoja sekä varusteita esimerkiksi kovakoodaamisen sijaan. Tietokantaan pystyy myös helposti tallettamaan kaikki tarpeelliset tiedot esimerkiksi vuokrauksista/vuokrasopimuksista sekä vuokraavien asiakkaiden yhteystiedoista. 
 - Koodin avulla tietokantaa pystyy päivittämään vaivattomasti vaikka weppisivujen kautta, jolloin vuokrauspalvelun tietojen päivittämisestä sekä ylläpidosta tulee paljon helpompaa. Tiedot pysyvät ajantasalla ja wepissä selaimelle on helpompi luoda palvelulle ominaisuuksia. Esimerkiksi varauspalvelu on helppo luoda tietokannan säilömien tietojen avulla, tietokannan avulla palvelu yhdistää tietyn asiakkaan vuokrattavaan autoon jne. Myös autojen esittelyt on kätevä luoda weppisivulle hakemalla autojen tiedot tietokannasta. 
 
 ## a)
