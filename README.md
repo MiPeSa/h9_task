@@ -23,7 +23,7 @@ n) Vapaaehtoinen: Maria. Asenna MariaDB ja kokeille sillä CRUD.
 
 - Taulukon luominen onnistui eli SQL-komennot toimii.
 
-- Taulukon rakenteen näkee komennolla
+- Komennolla ``\d books;`` näkee taulukon rakenteen, tässä näkyy esimerkiksi luomani ``PRIMARY KEY id``, sekä ``name`` sarake sekä niiden tyypit integer/numero, character varying(200)/max 200, merkkijono, sekä esim id:n määritelmät/ehdot. ``not null``= ei voi olla null arvo ja Defaultissa määritellään, että tietokanta luo automaattisesti uuden id:n esimerkiksi, kun luodaan taulukkoon uusi kirja.
 
 ## b)
 
@@ -37,8 +37,6 @@ n) Vapaaehtoinen: Maria. Asenna MariaDB ja kokeille sillä CRUD.
 - Katsoin luomani taulukon komennolla``\d``, taulukon luominen onnistui.
 
 ![Add file: Create Table](create-table.png)
-
-- Komennolla ``\d books;`` näkee taulukon rakenteen, tässä näkyy esimerkiksi luomani ``PRIMARY KEY id``, sekä ``name`` sarake sekä niiden tyypit integer/numero, character varying(200)/max 200, merkkijono, sekä esim id:n määritelmät/ehdot. ``not null``= ei voi olla null arvo ja Defaultissa määritellään, että tietokanta luo automaattisesti uuden id:n esimerkiksi, kun luodaan taulukkoon uusi kirja.
 
 - Seuraavaksi syötin hieman tietoja juuri luomaani "books" taulukkoon. 
 - Syötän taulukkoon muutaman päästä keksimäni nimen komennolla ``INSERT INTO books(name) VALUES('nimi')``;
