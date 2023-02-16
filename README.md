@@ -23,6 +23,8 @@ n) Vapaaehtoinen: Maria. Asenna MariaDB ja kokeille sillä CRUD.
 
 - Taulukon luominen onnistui eli SQL-komennot toimii.
 
+- Taulukon rakenteen näkee komennolla
+
 ## b)
 
 - Poistin a) kohdassa testiksi luomani taulukon tietokannasta lausekkeella ``DROP TABLE test;``. ``DROP TABLE`` lausekkeen alla kertoo, että komento toteutui. Tarkistin vielä ``\d``, vastaukseksi tuli "Did not found any relations" eli taulukko poistui.
@@ -31,9 +33,12 @@ n) Vapaaehtoinen: Maria. Asenna MariaDB ja kokeille sillä CRUD.
 
 - Loin uuden taulukon kirjoille lausekkeella ``CREATE TABLE books (id SERIAL PRIMARY KEY, name VARCHAR(200));
   - SERIAL id luo automaattisesti numeraalisen id:n.
+  - name VARCHAR(200), luo "name" sarakkeen, joka on max 200 merkkinen merkkijono.
 - Katsoin luomani taulukon komennolla``\d``, taulukon luominen onnistui.
 
 ![Add file: Create Table](create-table.png)
+
+- Komennolla ``\d books;`` näkee taulukon rakenteen, tässä näkyy esimerkiksi luomani ``PRIMARY KEY id``, sekä ``name`` sarake sekä niiden tyypit integer/numero, character varying(200)/max 200, merkkijono, sekä esim id:n määritelmät/ehdot. ``not null``= ei voi olla null arvo ja Defaultissa määritellään, että tietokanta luo automaattisesti uuden id:n esimerkiksi, kun luodaan taulukkoon uusi kirja.
 
 - Seuraavaksi syötin hieman tietoja juuri luomaani "books" taulukkoon. 
 - Syötän taulukkoon muutaman päästä keksimäni nimen komennolla ``INSERT INTO books(name) VALUES('nimi')``;
@@ -70,3 +75,5 @@ n) Vapaaehtoinen: Maria. Asenna MariaDB ja kokeille sillä CRUD.
 - Varmistin, että kirja poistui listaamalla kirjat uudelleen.
 
 ![Add file: delete](delete-book.png)
+
+- Kirjaa ei löydy enää taulukosta eli poistaminen onnistui.
