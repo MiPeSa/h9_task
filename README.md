@@ -86,3 +86,9 @@
 ![Add file: delete](delete-book.png)
 
 - Kirjaa ei löydy enää taulukosta eli poistaminen onnistui.
+
+
+## Lähteet
+
+- Karvinen Tero 2016-2023 PostgreSQL Install and One Table Database – SQL CRUD tutorial for Ubuntu, Luettavissa: https://terokarvinen.com/2016/postgresql-install-and-one-table-database-sql-crud-tutorial-for-ubuntu/
+- Karvinen Tero 2023, Luettavissa: https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/#h9-sequel
