@@ -1,9 +1,17 @@
 # h9 Sequel
 
-x) Yrityssoftaa. Keksi esimerkki palvelusta, jota käytetään wepissä selaimella, koodi ajetaan palvelimella ja taustalla on tietokanta. Mitä etuja tällä toteutustavalla on vaihtoehtoisiin toteutustapoihin verrattuna? (Tässä x-alakohdassa ei tarvitse tehdä testejä koneella tai toteuttaa mitään, pelkkä kuvittelu ja vastauksen kirjoittaminen riittää)
-a) Postgre. Asenna PostgreSQL ja testaa se suorittamalla SQL-komento. (Jos teit jo tunnilla, tee uusi Linux-käyttäjä ja tälle tietokanta ja tietokantakäyttäjä.)
-b) Crud. Kokeile CRUD (create, read, update, delete) kirjoittamalla SQL-käsin. (Artikkeli alla vinkeissä kertoo, kuinka tämä tehdään. Jos SQL on tuttua, voit keksiä tauluille ym omat aiheet ja nimet.)
-n) Vapaaehtoinen: Maria. Asenna MariaDB ja kokeille sillä CRUD.
+Kone
+
+- MacBook Air(2015) 
+- Intel i5 1,6 GHz Dual-Core prossu
+- 8 GB RAM
+- macOS Monterey v.12.6.2
+
+
+## x) Esimerkki palvelusta.
+
+- Mieleeni tuli esimerkiksi kuvitteellinen palvelu, joka vuokraa autoja. Yrityksellä, joka vuokraa autoja on luultavasti todella paljon tarjolla erilaisia autoja asiakkaille. Tietokannan avulla autojen yksityiskohtaiset tiedot sekä varusteet yms on helppo tallettaa tietokantaa sekä hakea ne tietokannasta koodin avulla. Tietokantaan on helppo päivittää autojen tietoja sekä varusteita esimerkiksi kovakoodaamisen sijaan. Tietokantaan pystyy myös helposti tallettamaan kaikki tarpeelliset tiedot esimerkiksi vuokrauksista/vuokrasopimuksista sekä vuokraavien asiakkaiden yhteystiedoista. 
+- Koodin avulla tietokantaa pystyy päivittämään vaivattomasti vaikka weppisivujen kautta, jolloin vuokrauspalvelun tietojen päivittämisestä sekä ylläpidosta tulee paljon helpompaa. Tiedot pysyvät ajantasalla ja wepissä selaimelle on helpompi luoda palvelulle ominaisuuksia. Esimerkiksi varauspalvelu on helppo luoda tietokannan säilömien tietojen avulla, tietokannan avulla palvelu yhdistää tietyn asiakkaan vuokrattavaan autoon jne. Myös autojen esittelyt on kätevä luoda weppisivulle hakemalla autojen tiedot tietokannasta. 
 
 ## a)
 
@@ -23,7 +31,7 @@ n) Vapaaehtoinen: Maria. Asenna MariaDB ja kokeille sillä CRUD.
 
 - Taulukon luominen onnistui eli SQL-komennot toimii.
 
-- Komennolla ``\d books;`` näkee taulukon rakenteen, tässä näkyy esimerkiksi luomani ``PRIMARY KEY id``, sekä ``name`` sarake sekä niiden tyypit ``integer``/numero, ``character varying(200)``/max 200 merkkinen merkkijono, sekä esim id:n määritelmät/ehdot. ``not null``= ei voi olla null arvo ja Defaultissa määritellään, että tietokanta luo automaattisesti uuden id:n esimerkiksi, kun luodaan taulukkoon uusi kirja.
+- Komennolla ``\d books;`` näkee taulukon rakenteen, tässä näkyy esimerkiksi luomani ``PRIMARY KEY id``, sekä ``name`` sarake sekä niiden tyypit ``integer``/numero, ``character varying(200)``/max 200 merkkinen merkkijono, sekä esim id:n määritelmät/ehdot. ``not null``= ei voi olla null arvo ja Defaultissa määritellään, että tietokanta luo automaattisesti uuden id:n esimerkiksi, kun luodaan taulukkoon uusi kirja. ``Indexes`` kertoo talukon ``PRIMARY KEY``:n, joka on ``id``
 
 ![Add file: rakenne](books-rakenne.png)
 
